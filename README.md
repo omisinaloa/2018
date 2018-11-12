@@ -1,2 +1,2 @@
 # OMI Sinaloa
-Solución a problemas de convocatoria 2018
+Solución a problemas - Convocatoria 2018
