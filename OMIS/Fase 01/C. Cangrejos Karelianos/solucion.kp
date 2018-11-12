@@ -1,0 +1,36 @@
+{C. Cangrejos Karelianos}
+iniciar-programa
+    define-nueva-instruccion gira-derecha como inicio
+    	gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+        mientras frente-libre hacer 
+        inicio
+           mientras junto-a-zumbador hacer coge-zumbador;
+  	   avanza;
+        fin;
+
+        mientras junto-a-zumbador hacer coge-zumbador;
+        
+        gira-izquierda;
+        
+	mientras derecha-bloqueada hacer avanza;
+        
+        gira-derecha;
+        avanza;
+        gira-derecha;
+
+        mientras frente-libre hacer avanza;
+        
+        gira-izquierda;
+        mientras algun-zumbador-en-la-mochila hacer 
+        inicio
+           repetir 3 veces deja-zumbador;
+           avanza;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa

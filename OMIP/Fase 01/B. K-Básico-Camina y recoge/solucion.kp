@@ -1,0 +1,15 @@
+{B. K-Básico-Camina y recoge}
+iniciar-programa
+  inicia-ejecucion
+        { TODO poner codigo aqui }
+       
+        mientras frente-libre hacer 
+        inicio
+          si junto-a-zumbador entonces coge-zumbador;
+          avanza;
+        fin;
+        mientras algun-zumbador-en-la-mochila hacer deja-zumbador;
+       
+        apagate;
+    termina-ejecucion
+finalizar-programa

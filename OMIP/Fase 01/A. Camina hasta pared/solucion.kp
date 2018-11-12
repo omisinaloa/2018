@@ -1,0 +1,10 @@
+{A. Camina hasta pared}
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+     
+	mientras frente-libre hacer  avanza;
+        
+        apagate;
+    termina-ejecucion
+finalizar-programa

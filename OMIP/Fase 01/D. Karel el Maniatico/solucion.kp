@@ -1,0 +1,25 @@
+{D. Karel el Maniatico}
+iniciar-programa
+    inicia-ejecucion
+     
+     	mientras no-orientado-al-este hacer  gira-izquierda;
+
+	deja-zumbador;
+       
+     	mientras frente-libre hacer 
+     	inicio 
+	
+	  avanza;
+          si frente-libre entonces 
+          inicio
+            avanza;
+            deja-zumbador;
+          fin;  
+       
+       fin;
+       
+    apagate;
+    
+    termina-ejecucion
+finalizar-programa
+
