@@ -1,2 +1,2 @@
-# OMI-2018
-Problemas, casos y soluciones de la Olimpiada Mexicana de Informática 2018
+# OMI Sinaloa-2018
+Solución a problemas de convocatoria 2018
