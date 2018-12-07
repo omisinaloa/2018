@@ -1,0 +1,50 @@
+{A. Simon dice}
+iniciar-programa
+    inicia-ejecucion
+        mientras junto-a-zumbador hacer inicio
+        	si junto-a-zumbador entonces inicio
+            	coge-zumbador;
+            	si junto-a-zumbador entonces inicio
+                    coge-zumbador;
+                    si junto-a-zumbador entonces inicio
+                        coge-zumbador;
+                        si junto-a-zumbador entonces inicio
+                            coge-zumbador;
+                            mientras no-orientado-al-oeste hacer inicio
+                                gira-izquierda;
+                            fin;
+                            si frente-libre entonces inicio
+                                avanza;
+                            fin;
+                        fin
+                        sino inicio
+                            mientras no-orientado-al-sur hacer inicio
+                                gira-izquierda;
+                            fin;
+                            si frente-libre entonces inicio
+                                avanza;
+                            fin;
+                        fin;
+                    fin
+                    sino inicio
+                        mientras no-orientado-al-este hacer inicio
+                            gira-izquierda;
+                        fin;
+                        si frente-libre entonces inicio
+                            avanza;
+                        fin;
+                    fin;
+                fin
+                sino inicio
+                    mientras no-orientado-al-norte hacer inicio
+                        gira-izquierda;
+                    fin;
+                    si frente-libre entonces inicio
+                        avanza;
+                    fin;
+                fin;
+            fin;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
