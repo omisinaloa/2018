@@ -1,0 +1,42 @@
+{B. Medias pirámides}
+iniciar-programa
+    define-nueva-instruccion dejar como inicio
+        mientras frente-libre hacer inicio
+            avanza;
+            deja-zumbador;
+        fin;
+    fin;
+    define-nueva-instruccion gira-derecha como inicio
+        gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+    define-nueva-instruccion generar como inicio
+        si ningun-zumbador-en-la-mochila entonces inicio
+            apagate;
+        fin;
+        deja-zumbador;
+        mientras no-orientado-al-sur hacer inicio
+            gira-izquierda;
+        fin;
+        dejar;
+        mientras no-orientado-al-norte hacer inicio
+            gira-izquierda;
+        fin;
+        mientras junto-a-zumbador hacer inicio
+            si frente-libre entonces inicio
+                avanza;
+            fin;
+        fin;
+        si derecha-libre entonces inicio
+            gira-derecha;
+            si frente-libre entonces inicio
+                avanza;
+            fin;
+        fin;
+        generar;
+    fin;
+    inicia-ejecucion
+        generar;
+    termina-ejecucion
+finalizar-programa

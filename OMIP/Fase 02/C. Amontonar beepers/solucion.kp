@@ -1,0 +1,27 @@
+{C. Amontonar beepers}
+iniciar-programa
+    inicia-ejecucion
+		mientras junto-a-zumbador hacer inicio
+        	mientras junto-a-zumbador hacer inicio
+                mientras junto-a-zumbador hacer inicio
+                    coge-zumbador;
+                fin;
+                si frente-libre entonces inicio
+                	avanza;
+                fin;
+            fin;
+            gira-izquierda;
+            gira-izquierda;
+            mientras frente-libre hacer inicio
+            	avanza;
+            fin;
+            mientras algun-zumbador-en-la-mochila hacer inicio
+            	deja-zumbador;
+            fin;
+            gira-izquierda;
+            avanza;
+            gira-izquierda;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa

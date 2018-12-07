@@ -1,0 +1,21 @@
+{A. Los canales del lago}
+iniciar-programa
+    inicia-ejecucion
+        mientras no-junto-a-zumbador hacer inicio
+        	si frente-libre entonces inicio
+            	avanza;
+            fin
+            sino inicio
+            	si derecha-libre entonces inicio
+                  gira-izquierda;
+                  gira-izquierda;
+                  gira-izquierda;
+                fin
+                sino inicio
+                	gira-izquierda
+                fin;
+            fin;
+        fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
